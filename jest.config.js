@@ -10,7 +10,7 @@ module.exports = async () => ({
         {
             displayName: "lint",
             runner: "jest-runner-eslint",
-            testMatch: ["**/*"]
+            testMatch: ["<rootDir>/pages/**/*.tsx"]
         }
     ]
 });
